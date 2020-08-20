@@ -1,0 +1,6 @@
+ cd ~/palooza/backend/.docker \
+ && make stop \
+ && make start \
+ && make db-seed \
+ && cd ~/palooza/backend \
+ && yarn start

@@ -1,0 +1,3 @@
+cd ~/palooza/frontend \
+&& yarn install \
+&& yarn start:dev
