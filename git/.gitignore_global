@@ -1,0 +1,9 @@
+# ~/.gitignore_global
+
+node_modules/
+
+# OSX
+.DS_Store
+
+# vscode
+.vscode/
