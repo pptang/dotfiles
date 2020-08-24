@@ -79,6 +79,7 @@ plugins=(
   fzf
   ripgrep
   z
+  zsh-syntax-highlighting
 )
 
 # The way zsh completions are loaded, you will get the message even if there is no real security risk. So just enable that flag to ignore it
