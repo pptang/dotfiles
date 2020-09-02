@@ -77,6 +77,7 @@ plugins=(
   docker
   fd
   fzf
+  httpie
   ripgrep
   z
   zsh-syntax-highlighting
@@ -124,3 +125,11 @@ if [ -f '/Users/pptang/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/pptang/g
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/pptang/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/pptang/google-cloud-sdk/completion.zsh.inc'; fi
+
+# pyenv initialization script
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+
