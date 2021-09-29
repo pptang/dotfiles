@@ -16,6 +16,9 @@ Follow the [manual](https://github.com/ohmyzsh/ohmyzsh)
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+- Install zsh-autosuggestions: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
+- Install zsh-syntax-highlighting: https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
+
 ## Download terminal themes
 
 Follow the [manual](https://github.com/lysyi3m/macos-terminal-themes).
